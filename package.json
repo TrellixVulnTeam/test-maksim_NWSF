@@ -55,5 +55,6 @@
   "bugs": {
     "url": "https://github.com/taniarascia/webpack-boilerplate/issues"
   },
-  "homepage": "https://github.com/taniarascia/webpack-boilerplate#readme"
+  "homepage": "https://github.com/taniarascia/webpack-boilerplate#readme",
+  "dependencies": {}
 }

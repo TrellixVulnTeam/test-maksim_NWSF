@@ -1,0 +1,49 @@
+// tag styles reset - сброс стилей тегов
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+/*---что бы соседние бордеры превращались в 1 и не создовали лишние---*/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/**/
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: transparent;
+  font: inherit; /* По дефолту, шрифтовые свойства, для этих элементов не наследуются */
+  color: inherit;
+  letter-spacing: inherit;
+}
+a,
+button {
+  outline: none;
+}
+* {
+  box-sizing: border-box;
+}
